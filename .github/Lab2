@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>INST377 Lab 2</title>
+    <style>
+        body {
+            background-color:blanchedalmond;
+            font-family: Georgia;
+        }
+        input[type="submit"]{
+            background-color: honeydew;
+            margin-left: 100px;
+        }
+        input[type="submit"]:hover{
+            background-color:darkslateblue;
+            color: whitesmoke;
+        }
+        div {
+            margin-top: 25px;
+            font-size: large;
+            color: black;
+        }
+
+        input {
+            background-color: aliceblue;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Bake Sale RSVP</h1>
+    <form name="rsvpFrom" method="get" action="Lab2Submit.html">
+    <div>
+    <label for = "fullName">Full Name:</label>
+    <input type="text" id="fullName" placeholder="John Doe"required>
+    </div>
+    <br>
+    <hr>
+    <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email"
+    placeholder="johndoe@yahoo.com" required>
+    </div>
+    <br>
+    <hr>
+    <input type="submit" id="submitButton">
+
+</form>
+</body>
